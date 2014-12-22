@@ -124,6 +124,8 @@ public void testYypushback() throws Exception {
 */ 
 @Test
 public void testAdvance() throws Exception {
+   // Apparently, IntelliJ does not use this interface
+   // ... which MAY be why it appears to be broken.
    IElementType token;
    int i = 0;
    myReader = new java.io.StringReader("# You are reading the \".properties\" entry.\n" +
